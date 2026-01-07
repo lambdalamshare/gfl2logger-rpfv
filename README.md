@@ -8,7 +8,7 @@ RPFV는 베푸리도 쉽게 소전2 리몰딩 패턴 시스템을 사용할 수 
 ## Installation
 
 ### For Regular Users
-Executable binaries can be downloaded from [Releases](https://github.com/blead/gfl2logger/releases).
+Executable binaries can be downloaded from [Releases](https://github.com/lambdalamshare/gfl2logger-rpfv/releases).
 
 ### Build from Source
 The instruction below uses [PDM](https://pdm-project.org/en/latest/#installation) to manage dependencies and run scripts.
@@ -45,5 +45,6 @@ Support for other data can be added in the future especially if there are valid 
 | `CommonKeys` | Common Keys owned. | login | CSV |
 | `GuildMembers` | Platoon members and their contributions/scores. | login (twice?), reconnection , Platoon pages | CSV |
 | `Formations` | Saved Formations. This currently needs to be mapped with weapons, attachments, and common keys to give complete information. | login, reconnection | JSON |
+| `GrowthData` | Remolding Pattern - GrowthData owned. | login | CSV |
 
 Any opinions and suggestions regarding usage, data, and format will be very welcome.
