@@ -9,6 +9,7 @@ from gfl2logger.gfl2.data.common_keys import CommonKeysData
 from gfl2logger.gfl2.data.formations import FormationsData
 from gfl2logger.gfl2.data.guild_members import GuildMembersData
 from gfl2logger.gfl2.data.weapons import WeaponsData
+from gfl2logger.gfl2.data.remoldings import RemoldingsData
 
 DATA_TYPES: dict[int, type[BaseData]] = {
     11021: WeaponsData,
@@ -16,6 +17,7 @@ DATA_TYPES: dict[int, type[BaseData]] = {
     11138: CommonKeysData,
     21917: GuildMembersData,
     23201: FormationsData,
+    11163: RemoldingsData
 }
 
 

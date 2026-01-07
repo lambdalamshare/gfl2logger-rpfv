@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message Remoldings {
+  repeated Remolding remoldings = 1;
+}
+
+message Remolding {
+  uint32 id = 1;
+  bytes contents = 2;
+  uint64 uid = 3; 
+}
