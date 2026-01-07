@@ -1,4 +1,8 @@
-# gfl2logger
+# gfl2logger-rpfv
+
+gfl2logger - Remolding Pattern for Vepley
+RPFV는 베푸리도 쉽게 소전2 리몰딩 패턴 시스템을 사용할 수 있도록 하기 위한 프로젝트입니다.
+이 레포지토리는 기존 gfl2logger에서 지원하지 않는** 현재 보유한 성장데이터 아이템 목록**을 csv/json 형식으로 출력하는 기능을 지원합니다.
 
 ## Installation
 
