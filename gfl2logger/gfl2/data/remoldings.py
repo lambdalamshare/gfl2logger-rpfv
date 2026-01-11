@@ -52,9 +52,9 @@ class RemoldingsData(BaseData):
                 code2 = " ".join(hex_codes[3:6])
                 code3 = " ".join(hex_codes[6:9])
                 
-                value1 = REMOLDINGS.get(code1, None)
-                value2 = REMOLDINGS.get(code2, None)
-                value3 = REMOLDINGS.get(code3, None)
+                value1 = code1
+                value2 = code2
+                value3 = code3
                 
                 yield {
                     "uid": "U"+str(row.get("uid")),

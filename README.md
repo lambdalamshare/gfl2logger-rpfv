@@ -9,6 +9,7 @@ RPFV는 베푸리도 쉽게 소전2 리몰딩 패턴 시스템을 사용할 수 
 
 ### For Regular Users
 Executable binaries can be downloaded from [Releases](https://github.com/lambdalamshare/gfl2logger-rpfv/releases).
+실행가능한 파일은 링크에서 다운로드 가능합니다.
 
 ### Build from Source
 The instruction below uses [PDM](https://pdm-project.org/en/latest/#installation) to manage dependencies and run scripts.
@@ -25,6 +26,7 @@ Without PDM, check dependencies and scripts in `pyproject.toml` and install/run 
 ## How It Works
 
 It reads data transmitted by the client in real-time and logs any data of interest to local files. It does not attempt to initiate or change any connections.
+
 
 ## Support
 
