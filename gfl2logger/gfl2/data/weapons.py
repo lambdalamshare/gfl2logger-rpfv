@@ -20,7 +20,7 @@ class WeaponsData(BaseData):
             "name": "gfl2_weapons",
             "label": "Weapons",
             "typespec": bool,
-            "default": True,
+            "default": False,
             "help": "Log weapons on login",
         }
     ]

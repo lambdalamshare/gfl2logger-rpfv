@@ -19,7 +19,7 @@ class GuildMembersData(BaseData):
             "name": "gfl2_guildmembers",
             "label": "Platoon members",
             "typespec": bool,
-            "default": True,
+            "default": False,
             "help": "Log Platoon members on login/Platoon page",
         }
     ]

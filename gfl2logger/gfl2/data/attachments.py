@@ -26,7 +26,7 @@ class AttachmentsData(BaseData):
             "name": "gfl2_attachments",
             "label": "Attachments",
             "typespec": bool,
-            "default": True,
+            "default": False,
             "help": "Log Attachments on login",
         }
     ]

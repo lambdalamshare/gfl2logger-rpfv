@@ -20,7 +20,7 @@ class FormationsData(BaseData):
             "name": "gfl2_formations",
             "label": "Formations",
             "typespec": bool,
-            "default": True,
+            "default": False,
             "help": "Log Formations on login",
         }
     ]

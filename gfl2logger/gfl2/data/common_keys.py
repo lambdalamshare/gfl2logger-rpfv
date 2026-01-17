@@ -20,7 +20,7 @@ class CommonKeysData(BaseData):
             "name": "gfl2_commonkeys",
             "label": "Common Keys",
             "typespec": bool,
-            "default": True,
+            "default": False,
             "help": "Log Common Keys on login",
         }
     ]
